@@ -1,0 +1,21 @@
+/* 首页css */
+
+.top {
+    background: #333;
+    height: 100px;
+    color: #fff;
+    font-size: 18px;
+}
+
+.container {
+    border: 1px solid red;
+}
+
+@media (max-width: 768px) {
+    .container {
+        border: 1px solid blue;
+    }
+    input {
+        display: none;
+    }
+}
