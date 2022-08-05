@@ -1,0 +1,59 @@
+@font-face {
+    font-family: 'ArrowDisplayBold';
+    src: url(./WOFF2/ArrowDisplay_W_Bd.woff2)format('woff2'), url(./WOFF/ArrowDisplay_W_Bd.woff)format('woff')
+}
+
+@font-face {
+    font-family: 'ArrowDisplayMedium';
+    src: url(./WOFF2/ArrowDisplay_W_Md.woff2)format('woff2'), url(./WOFF/ArrowDisplay_W_Md.woff)format('woff')
+}
+
+@font-face {
+    font-family: 'ArrowDisplayRegular';
+    src: url(./WOFF2/ArrowDisplay_W_Rg.woff2)format('woff2'), url(./WOFF/ArrowDisplay_W_Rg.woff)format('woff')
+}
+
+@font-face {
+    font-family: 'ArrowDisplayLight';
+    src: url(./WOFF2/ArrowDisplay_W_Lt.woff2)format('woff2'), url(./WOFF/ArrowDisplay_W_Lt.woff)format('woff')
+}
+
+@font-face {
+    font-family: 'ArrowDisplayBoldItalic';
+    src: url(./WOFF2/ArrowDisplay_W_BdIt.woff2)format('woff2'), url(./WOFF/ArrowDisplay_W_BdIt.woff)format('woff')
+}
+
+@font-face {
+    font-family: 'ArrowDisplayMediumItalic';
+    src: url(./WOFF2/ArrowDisplay_W_MdIt.woff2)format('woff2'), url(./WOFF/ArrowDisplay_W_MdIt.woff)format('woff')
+}
+
+@font-face {
+    font-family: 'ArrowDisplayRegularItalic';
+    src: url(./WOFF2/ArrowDisplay_W_It.woff2)format('woff2'), url(./WOFF/ArrowDisplay_W_It.woff)format('woff')
+}
+
+@font-face {
+    font-family: 'ArrowDisplayLightItalic';
+    src: url(./WOFF2/ArrowDisplay_W_LtIt.woff2)format('woff2'), url(./WOFF/ArrowDisplay_W_LtIt.woff)format('woff')
+}
+
+@font-face {
+    font-family: 'ArrowTextBold';
+    src: url(./WOFF2/ArrowText_W_Bd.woff2)format('woff2'), url(./WOFF/ArrowText_W_Bd.woff)format('woff')
+}
+
+@font-face {
+    font-family: 'ArrowTextBoldItalic';
+    src: url(./WOFF2/ArrowText_W_BdIt.woff2)format('woff2'), url(./WOFF/ArrowText_W_BdIt.woff)format('woff')
+}
+
+@font-face {
+    font-family: 'ArrowTextRegular';
+    src: url(./WOFF2/ArrowText_W_Rg.woff2)format('woff2'), url(./WOFF/ArrowText_W_Rg.woff)format('woff')
+}
+
+@font-face {
+    font-family: 'ArrowTextRegularItalic';
+    src: url(./WOFF2/ArrowText_W_It.woff2)format('woff2'), url(./WOFF/ArrowText_W_It.woff)format('woff')
+}
