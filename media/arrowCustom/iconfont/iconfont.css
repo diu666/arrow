@@ -2,9 +2,9 @@
   font-family: "iconfont"; /* Project id 3503238 */
   /* Color fonts */
   src: 
-       url('iconfont.woff2?t=1659671116723') format('woff2'),
-       url('iconfont.woff?t=1659671116723') format('woff'),
-       url('iconfont.ttf?t=1659671116723') format('truetype');
+       url('iconfont.woff2?t=1659960238712') format('woff2'),
+       url('iconfont.woff?t=1659960238712') format('woff'),
+       url('iconfont.ttf?t=1659960238712') format('truetype');
 }
 
 .iconfont {
@@ -13,6 +13,70 @@
   font-style: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-tag:before {
+  content: "\e64d";
+}
+
+.icon-bianji:before {
+  content: "\e609";
+}
+
+.icon-shijian1:before {
+  content: "\e638";
+}
+
+.icon-shijian2:before {
+  content: "\e61d";
+}
+
+.icon-xinlangweibo:before {
+  content: "\e600";
+}
+
+.icon-qqkongjian:before {
+  content: "\e66f";
+}
+
+.icon-jushoucang:before {
+  content: "\e643";
+}
+
+.icon-jushoucanggift:before {
+  content: "\e684";
+}
+
+.icon-quotation:before {
+  content: "\e67b";
+}
+
+.icon-qq:before {
+  content: "\e612";
+}
+
+.icon-shoucang:before {
+  content: "\e86d";
+}
+
+.icon-rili:before {
+  content: "\e89e";
+}
+
+.icon-weixin:before {
+  content: "\e637";
+}
+
+.icon-rili1:before {
+  content: "\e8b4";
+}
+
+.icon-shoucang1:before {
+  content: "\e8c6";
+}
+
+.icon-weixin1:before {
+  content: "\e607";
 }
 
 .icon-caidan:before {
