@@ -1,4 +1,8 @@
 // PC端首页js
+
+/**
+ * 轮播
+ */
 var mySwiper = new Swiper(".main-carousel .swiper", {
     loop: true, // 循环模式选项
     pagination: {
@@ -17,6 +21,9 @@ var mySwiper = new Swiper(".live .swiper", {
     },
 });
 
+/**
+ * 解决方案点击事件
+ */
 $(".solution li").click(function() {
     $(this)
         .css("border-bottom", "4px solid #0084D5")
@@ -40,4 +47,24 @@ $(".solution li").click(function() {
             break;
     }
     $(css).show().siblings().hide();
+});
+
+/**
+ * 弹窗部分
+ */
+$("#open").click(function(event) {
+    event.stopPropagation();
+    $("#popup").show();
+});
+
+$("#close").click(function() {
+    $("#popup").hide();
+});
+
+//点击空白处隐藏弹出层，下面为滑动消失效果和淡出消失效果。
+$(document).click(function(event) {
+    var _con = $("#modal"); // 设置目标区域
+    if (!_con.is(event.target) && _con.has(event.target).length === 0) {
+        $("#popup").hide();
+    }
 });
