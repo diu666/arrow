@@ -1,22 +1,24 @@
-@font-face {
+/* @font-face {
     font-family: 'ArrowBlack';
     src: url(./NotoSansCJKsc-Black.otf)
-}
+} */
 
 @font-face {
     font-family: 'ArrowBold';
     src: url(./NotoSansCJKsc-Bold.otf)
 }
 
-@font-face {
+
+/* @font-face {
     font-family: 'ArrowDemiLight';
     src: url(./NotoSansCJKsc-DemiLight.otf)
-}
+} */
 
-@font-face {
+
+/* @font-face {
     font-family: 'ArrowLight';
     src: url(./NotoSansCJKsc-Light.otf);
-}
+} */
 
 @font-face {
     font-family: 'ArrowMedium';
@@ -28,7 +30,8 @@
     src: url(./NotoSansCJKsc-Regular.otf);
 }
 
-@font-face {
+
+/* @font-face {
     font-family: 'ArrowThin';
     src: url(./NotoSansCJKsc-Thin.otf);
 }
@@ -41,4 +44,4 @@
 @font-face {
     font-family: 'ArrowMonoRegular';
     src: url(./NotoSansMonoCJKsc-Regular.otf);
-}
+} */
