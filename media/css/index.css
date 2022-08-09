@@ -135,6 +135,7 @@
     margin-left: 4px;
 }
 
+
 /* top部分结束 */
 
 .menu-wrap {
@@ -173,6 +174,7 @@
     line-height: 40px;
     margin-right: 20px;
 }
+
 
 /* menu部分结束 */
 
@@ -355,6 +357,7 @@
     font-size: 12px;
 }
 
+
 /* 轮播、广告区结束 */
 
 .box {
@@ -422,7 +425,6 @@
 }
 
 
-
 /* 选择前一个元素之后的所有元素 */
 
 .solution ul li:hover~li:before {
@@ -475,7 +477,10 @@
     display: block;
 }
 
-.solution .aiot {
+.solution .aiot,
+.solution .plc,
+.solution .car-elc,
+.solution .new-energy {
     font-family: 'ArrowMedium';
     font-size: 16px;
     display: flex;
@@ -485,13 +490,19 @@
     padding-top: 29px;
 }
 
-.solution .aiot .item {
+.solution .aiot .item,
+.solution .plc .item,
+.solution .car-elc .item,
+.solution .new-energy .item {
     width: 380px;
     display: flex;
     margin-bottom: 29px;
 }
 
-.solution .aiot img {
+.solution .aiot img,
+.solution .plc img,
+.solution .car-elc img,
+.solution .new-energy img {
     width: 142px;
     height: 82px;
     margin-right: 14px;
@@ -504,7 +515,6 @@
 .solution .new-energy {
     display: none;
 }
-
 
 .technology-question {
     flex: 1;
@@ -636,6 +646,7 @@
     padding: 8px 30px;
 }
 
+
 /* 解决方案结束 */
 
 .video-wrap .box {
@@ -643,7 +654,7 @@
 }
 
 .video {
-    margin-top: -64px;
+    margin-top: -74px;
     width: 800px;
     margin-right: 20px;
 }
@@ -682,7 +693,7 @@
 }
 
 .video .content {
-    padding: 24px 0;
+    padding: 28px 0;
     display: flex;
     flex-wrap: wrap;
 }
@@ -899,7 +910,6 @@
     margin-right: 6px;
 }
 
-
 .more-consult {
     text-align: center;
     color: #fff;
@@ -912,6 +922,7 @@
     border: unset;
     padding: 8px 30px;
 }
+
 
 /* 视频中心结束 */
 
@@ -1023,7 +1034,6 @@
     font-size: 16px;
     margin-top: 10px;
 }
-
 
 .knowledge .list .item {
     display: flex;
@@ -1153,7 +1163,6 @@
     color: #666666;
 }
 
-
 .be-partners {
     font-family: 'ArrowMedium';
     text-align: center;
@@ -1166,6 +1175,7 @@
     border: unset;
     padding: 8px 30px;
 }
+
 
 /* 知识分享结束 */
 
@@ -1208,7 +1218,6 @@
     .container {
         border: 1px solid blue;
     }
-
     input {
         display: none;
     }
