@@ -44,13 +44,10 @@ $(".solution li").each((index, item) => {
 $(".technology-consult .select span").each((index, item) => {
     $(item).click(function() {
         $(this).addClass("select-active").siblings().removeClass("select-active");
-        if (index == 0) {
-            $(".technology-consult .express").show();
-            $(".technology-consult .hotspot").hide();
-        } else {
-            $(".technology-consult .express").hide();
-            $(".technology-consult .hotspot").show();
-        }
+        let content = $(this)
+            .parents()
+            .find(`.technology-consult .article:eq(${index})`);
+        $(content).show().siblings().hide();
     });
 });
 

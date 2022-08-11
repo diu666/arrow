@@ -849,9 +849,10 @@
 .technology-consult .article {
     font-family: 'ArrowRegular';
     padding-bottom: 20px;
+    display: block;
 }
 
-.technology-consult .hotspot {
+.technology-consult .article:nth-of-type(3) {
     display: none;
 }
 
