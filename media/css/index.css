@@ -482,48 +482,34 @@
     height: 300px;
 }
 
-.solution .aiot {
-    display: block;
-}
-
-.solution .aiot,
-.solution .plc,
-.solution .car-elc,
-.solution .new-energy {
+.solution .all-items {
+    display: none;
     font-family: 'ArrowMedium';
     font-size: 16px;
-    display: flex;
+    display: none;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
     padding-top: 29px;
 }
 
-.solution .aiot .item,
-.solution .plc .item,
-.solution .car-elc .item,
-.solution .new-energy .item {
+.solution .all-items:first-child {
+    display: flex;
+}
+
+.solution .all-items .item {
     width: 380px;
     display: flex;
     margin-bottom: 29px;
     cursor: pointer;
 }
 
-.solution .aiot img,
-.solution .plc img,
-.solution .car-elc img,
-.solution .new-energy img {
+.solution .all-items img {
     width: 142px;
     height: 82px;
     margin-right: 14px;
     box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.2200);
     border-radius: 6px 0px 0px 0px;
-}
-
-.solution .plc,
-.solution .car-elc,
-.solution .new-energy {
-    display: none;
 }
 
 .technology-question {
