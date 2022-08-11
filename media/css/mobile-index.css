@@ -23,6 +23,11 @@ header .menu {
     margin-bottom: .2rem;
 }
 
+header .menu .iconfont {
+    font-size: .5rem;
+    color: #CCCCCC;
+}
+
 .custom-input {
     display: flex;
     align-items: center;
@@ -41,22 +46,22 @@ header .menu {
 
 .custom-input input::-webkit-input-placeholder {
     color: #999999;
-    font-size: 12px;
+    font-size: .3rem;
 }
 
 .custom-input input:-moz-placeholder {
     color: #999999;
-    font-size: 12px;
+    font-size: .3rem;
 }
 
 .custom-input input::-moz-placeholder {
     color: #999999;
-    font-size: 12px;
+    font-size: .3rem;
 }
 
 .custom-input input:-ms-input-placeholder {
     color: #999999;
-    font-size: 12px;
+    font-size: .3rem;
 }
 
 .custom-input .suffix {
@@ -79,6 +84,10 @@ header .menu {
     left: -6px;
 }
 
+.custom-input .suffix .iconfont {
+    color: #999999;
+    font-size: .35rem;
+}
 
 /* 头部结束 */
 
@@ -347,6 +356,10 @@ header .menu {
     margin-bottom: .17rem;
 }
 
+.video-wrap .header .title img {
+    width: .5rem;
+}
+
 .video-wrap .header .title span {
     font-family: 'ArrowBold';
     font-size: .38rem;
@@ -390,7 +403,8 @@ header .menu {
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    font-size: 36px;
+    font-size: .5rem;
+    color: #fff;
 }
 
 .video-wrap .play .time {
@@ -450,6 +464,7 @@ header .menu {
 
 .video-wrap .data-time .iconfont {
     margin-right: 4px;
+    font-size: .35rem;
 }
 
 
@@ -474,16 +489,20 @@ header .menu {
     margin-bottom: .17rem;
 }
 
+.knowledge-wrap .header .title img {
+    width: .5rem;
+}
+
 .knowledge-wrap .header .title span {
     font-family: 'ArrowBold';
-    font-size: 22px;
+    font-size: .32rem;
     position: relative;
     margin-left: .1rem;
 }
 
 .knowledge-wrap .header>span {
     font-family: 'ArrowRegular';
-    font-size: 12px;
+    font-size: .24rem;
     color: #0084D5;
     border: 1px solid #0084D5;
     border-radius: 0.4rem;
@@ -509,7 +528,7 @@ header .menu {
 
 .knowledge-wrap .list .l span {
     font-family: 'ArrowRegular';
-    font-size: 12px;
+    font-size: .24rem;
     padding: .08rem .1rem;
     background: #000000;
     color: #fff;
@@ -526,7 +545,7 @@ header .menu {
 
 .knowledge-wrap .list .r>span {
     font-family: 'ArrowBold';
-    font-size: 14px;
+    font-size: .28rem;
     font-weight: bold;
     color: #333333;
 }
@@ -541,9 +560,13 @@ header .menu {
     width: 94%;
 }
 
-.knowledge-wrap .list .r .name-time>span {
+.knowledge-wrap .list .r .name-time .iconfont {
+    font-size: .35rem;
+}
+
+.knowledge-wrap .list .r .name-time span {
     font-family: 'ArrowRegular';
-    font-size: 12px;
+    font-size: .24rem;
 }
 
 
@@ -565,7 +588,7 @@ header .menu {
 
 .technology-consult>.title>span:first-child {
     font-family: 'ArrowBold';
-    font-size: 22px;
+    font-size: .36rem;
     position: relative;
 }
 
@@ -582,31 +605,32 @@ header .menu {
 
 .technology-consult .select {
     font-family: 'ArrowMedium';
-    font-size: 12px;
+    font-size: .24rem;
     color: #999999;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
-.technology-consult .select>span:first-child {
+.technology-consult .select b {
+    margin: 0 .14rem;
+}
+
+.technology-consult .select .select-active {
     font-family: 'ArrowBold';
     position: relative;
-    font-size: 14px;
+    font-size: .28rem;
     color: #0084D5;
-    margin-right: 15px;
 }
 
-.technology-consult .select>span:first-child::after {
-    content: '';
-    position: absolute;
-    right: -9px;
-    width: 1px;
-    height: 100%;
-    background: #CCCCCC;
-    top: 0;
-}
 
 .technology-consult .article {
     font-family: 'ArrowRegular';
     padding-bottom: .2rem;
+}
+
+.technology-consult .hotspot {
+    display: none;
 }
 
 .technology-consult .item {
@@ -622,6 +646,7 @@ header .menu {
 }
 
 .article .item .info span {
+    font-size: .24rem;
     word-break: break-all;
     display: -webkit-box;
     -webkit-box-orient: vertical;
@@ -629,7 +654,12 @@ header .menu {
     overflow: hidden;
 }
 
+.article .item .info>span {
+    font-size: .28rem;
+}
+
 .article .order {
+    font-size: .24rem;
     width: .4rem;
     height: .4rem;
     border-radius: 50%;
@@ -657,7 +687,7 @@ header .menu {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    font-size: 12px;
+    font-size: .24rem;
     color: #999999;
     margin-top: .1rem;
 }
@@ -669,6 +699,7 @@ header .menu {
 
 .article .autor-time div .iconfont {
     margin-right: 6px;
+    font-size: .35rem;
 }
 
 .more-consult {
@@ -678,6 +709,7 @@ header .menu {
 
 .more-consult>button {
     font-family: 'ArrowMedium';
+    font-size: .28rem;
     background: #0084D5;
     border-radius: 4px;
     border: unset;
@@ -689,6 +721,8 @@ header .menu {
 /* 技术咨询结束 */
 
 footer {
+    font-family: 'ArrowRegular';
+    font-size: .24rem;
     height: .9rem;
     background: #000;
     color: #CCCCCC;
@@ -698,6 +732,8 @@ footer {
 }
 
 .copyright {
+    font-family: 'ArrowRegular';
+    font-size: .22rem;
     background: #333333;
     height: 1.57rem;
     color: #CCCCCC;

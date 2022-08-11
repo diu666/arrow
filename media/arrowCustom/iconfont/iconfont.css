@@ -2,9 +2,9 @@
   font-family: "iconfont"; /* Project id 3503238 */
   /* Color fonts */
   src: 
-       url('iconfont.woff2?t=1659960238712') format('woff2'),
-       url('iconfont.woff?t=1659960238712') format('woff'),
-       url('iconfont.ttf?t=1659960238712') format('truetype');
+       url('iconfont.woff2?t=1660130175441') format('woff2'),
+       url('iconfont.woff?t=1660130175441') format('woff'),
+       url('iconfont.ttf?t=1660130175441') format('truetype');
 }
 
 .iconfont {
@@ -13,6 +13,38 @@
   font-style: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-yonghu:before {
+  content: "\e603";
+}
+
+.icon-gfcaidan:before {
+  content: "\e7ca";
+}
+
+.icon-tijiaoziliao:before {
+  content: "\e611";
+}
+
+.icon-fuzhilianjie:before {
+  content: "\e62d";
+}
+
+.icon-dianzan1:before {
+  content: "\e694";
+}
+
+.icon-dianzan:before {
+  content: "\e816";
+}
+
+.icon-fenxiang:before {
+  content: "\e60c";
+}
+
+.icon-xiazai-wenjianxiazai-05:before {
+  content: "\e855";
 }
 
 .icon-tag:before {
@@ -121,6 +153,10 @@
 
 .icon-fanye1:before {
   content: "\e757";
+}
+
+.icon-sousuo-copy:before {
+  content: "\ee16";
 }
 
 .icon-sousuo:before {

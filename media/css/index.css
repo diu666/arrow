@@ -163,6 +163,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
 }
 
 .menu span {
@@ -173,6 +174,10 @@
     text-align: center;
     line-height: 40px;
     margin-right: 20px;
+}
+
+.menu .iconfont {
+    color: #E6E6E6;
 }
 
 
@@ -390,17 +395,20 @@
     padding: unset;
     margin: unset;
     height: 62px;
+    width: 90%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
 }
 
 .solution ul li {
-    float: left;
     padding: 10px;
     position: relative;
-    transition: 0.2s all linear;
-    margin-right: 48px;
+    transition: 0.15s all linear;
     display: flex;
     flex-direction: column;
     align-items: center;
+    cursor: pointer;
 }
 
 .solution ul li:before {
@@ -466,6 +474,7 @@
     border: 1px solid #0084D5;
     border-radius: 12px;
     font-size: 12px;
+    cursor: pointer;
 }
 
 .solution .content {
@@ -497,6 +506,7 @@
     width: 380px;
     display: flex;
     margin-bottom: 29px;
+    cursor: pointer;
 }
 
 .solution .aiot img,
@@ -554,6 +564,7 @@
     color: #0084D5;
     font-size: 12px;
     margin-top: 8px;
+    cursor: pointer;
 }
 
 .steps {
@@ -614,6 +625,7 @@
     color: #333333;
     font-size: 14px;
     margin-bottom: 13px;
+    cursor: pointer;
 }
 
 .tocardbottom {
@@ -690,22 +702,27 @@
     border-radius: 12px;
     font-family: 'ArrowRegular';
     font-size: 12px;
+    cursor: pointer;
 }
 
 .video .content {
-    padding: 28px 0;
-    display: flex;
-    flex-wrap: wrap;
+    padding: 28px 0 0 0;
+    /* display: flex;
+    flex-wrap: wrap; */
+    display: grid;
+    grid-template-columns: repeat(3, 33.33%);
+    gap: 20px 0;
 }
 
 .video .content .item {
     flex: 1 auto;
-    width: 246px;
+    /* width: 246px; */
     background: #FFFFFF;
     box-shadow: 0px 2px 10px 0px rgba(8, 9, 30, 0.1000);
     border-radius: 8px;
-    margin: 0 20px 20px 0;
+    margin: 0 20px 0 0;
     padding-bottom: 20px;
+    cursor: pointer;
 }
 
 .video .content .item:nth-child(3n) {
@@ -726,6 +743,7 @@
     top: 50%;
     transform: translate(-50%, -50%);
     font-size: 36px;
+    color: #fff;
 }
 
 .video .info {
@@ -826,27 +844,29 @@
     color: #999999;
 }
 
-.technology-consult .select>span:first-child {
+.technology-consult .select span {
+    cursor: pointer;
+}
+
+.technology-consult .select .select-active {
     font-family: 'ArrowBold';
     position: relative;
     font-size: 14px;
     color: #0084D5;
-    margin-right: 15px;
 }
 
-.technology-consult .select>span:first-child::after {
-    content: '';
-    position: absolute;
-    right: -9px;
-    width: 1px;
-    height: 100%;
-    background: #CCCCCC;
-    top: 0;
+.technology-consult .select b {
+    margin: 0 4px;
 }
+
 
 .technology-consult .article {
     font-family: 'ArrowRegular';
     padding-bottom: 20px;
+}
+
+.technology-consult .hotspot {
+    display: none;
 }
 
 .technology-consult .item {
@@ -867,6 +887,7 @@
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 1;
     overflow: hidden;
+    cursor: pointer;
 }
 
 .article .order {
@@ -965,6 +986,7 @@
     border-radius: 12px;
     font-size: 12px;
     font-family: 'ArrowRegular';
+    cursor: pointer;
 }
 
 .knowledge .content {
@@ -979,6 +1001,7 @@
     border-radius: 8px;
     position: relative;
     margin-right: 28px;
+    cursor: pointer;
 }
 
 .knowledge .content .play .video-tag {
@@ -1009,6 +1032,7 @@
     top: 50%;
     transform: translate(-50%, -50%);
     font-size: 36px;
+    color: #fff;
 }
 
 .knowledge .content .info {
@@ -1039,6 +1063,7 @@
     display: flex;
     justify-content: space-between;
     margin-bottom: 27px;
+    cursor: pointer;
 }
 
 .knowledge .list .l {
@@ -1128,6 +1153,7 @@
     font-family: 'ArrowRegular';
     font-size: 12px;
     color: #0084D5;
+    cursor: pointer;
 }
 
 .partners .list {
@@ -1139,6 +1165,7 @@
     align-items: center;
     padding: 15px 0 20px;
     border-bottom: 1px solid #EBEBEB;
+    cursor: pointer;
 }
 
 .partners .list .item .l {
@@ -1197,6 +1224,7 @@
 
 .bottom .content span {
     margin-right: 80px;
+    cursor: pointer;
 }
 
 .bottom .content span:last-child {
@@ -1245,6 +1273,7 @@
     .container {
         border: 1px solid blue;
     }
+
     input {
         display: none;
     }

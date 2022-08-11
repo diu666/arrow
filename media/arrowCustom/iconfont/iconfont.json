@@ -6,6 +6,62 @@
   "description": "",
   "glyphs": [
     {
+      "icon_id": "11077383",
+      "name": "用户",
+      "font_class": "yonghu",
+      "unicode": "e603",
+      "unicode_decimal": 58883
+    },
+    {
+      "icon_id": "12392662",
+      "name": "gf菜单",
+      "font_class": "gfcaidan",
+      "unicode": "e7ca",
+      "unicode_decimal": 59338
+    },
+    {
+      "icon_id": "1249068",
+      "name": "提交资料",
+      "font_class": "tijiaoziliao",
+      "unicode": "e611",
+      "unicode_decimal": 58897
+    },
+    {
+      "icon_id": "1817762",
+      "name": "复制链接",
+      "font_class": "fuzhilianjie",
+      "unicode": "e62d",
+      "unicode_decimal": 58925
+    },
+    {
+      "icon_id": "10487545",
+      "name": "点赞",
+      "font_class": "dianzan1",
+      "unicode": "e694",
+      "unicode_decimal": 59028
+    },
+    {
+      "icon_id": "17605481",
+      "name": "点赞",
+      "font_class": "dianzan",
+      "unicode": "e816",
+      "unicode_decimal": 59414
+    },
+    {
+      "icon_id": "17868590",
+      "name": "分享",
+      "font_class": "fenxiang",
+      "unicode": "e60c",
+      "unicode_decimal": 58892
+    },
+    {
+      "icon_id": "24859937",
+      "name": "下载-文件下载-05",
+      "font_class": "xiazai-wenjianxiazai-05",
+      "unicode": "e855",
+      "unicode_decimal": 59477
+    },
+    {
       "icon_id": "109790",
       "name": "tag",
       "font_class": "tag",
@@ -193,6 +249,13 @@
       "font_class": "fanye1",
       "unicode": "e757",
       "unicode_decimal": 59223
+    },
+    {
+      "icon_id": "31148578",
+      "name": "搜索-copy",
+      "font_class": "sousuo-copy",
+      "unicode": "ee16",
+      "unicode_decimal": 60950
     },
     {
       "icon_id": "577365",
