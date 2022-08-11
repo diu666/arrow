@@ -89,6 +89,7 @@ header .menu .iconfont {
     font-size: .35rem;
 }
 
+
 /* 头部结束 */
 
 .main-carousel {
@@ -292,46 +293,31 @@ header .menu .iconfont {
     height: 0.5rem;
 }
 
-.solution-wrap .aiot {
-    display: block;
-}
-
-.solution-wrap .aiot,
-.solution-wrap .plc,
-.solution-wrap .car-elc,
-.solution-wrap .new-energy {
+.solution-wrap .all-items {
     font-family: 'ArrowMedium';
     font-size: .28rem;
-    display: flex;
+    display: none;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
     padding-top: .25rem;
 }
 
-.solution-wrap .aiot .item,
-.solution-wrap .plc .item,
-.solution-wrap .car-elc .item,
-.solution-wrap .new-energy .item {
+.solution-wrap .all-items:first-child {
+    display: flex;
+}
+
+.solution-wrap .all-items .item {
     display: flex;
     margin-bottom: .38rem;
 }
 
-.solution-wrap .aiot img,
-.solution-wrap .plc img,
-.solution-wrap .car-elc img,
-.solution-wrap .new-energy img {
+.solution-wrap .all-items img {
     width: 2.12rem;
     height: 1.34rem;
     margin-right: .2rem;
     box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.2200);
     border-radius: 6px 0px 0px 0px;
-}
-
-.solution-wrap .plc,
-.solution-wrap .car-elc,
-.solution-wrap .new-energy {
-    display: none;
 }
 
 
@@ -622,7 +608,6 @@ header .menu .iconfont {
     font-size: .28rem;
     color: #0084D5;
 }
-
 
 .technology-consult .article {
     font-family: 'ArrowRegular';
