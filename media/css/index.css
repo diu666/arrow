@@ -529,6 +529,7 @@
 .technology-question {
     flex: 1;
     /* height: 465px; */
+    height: 520px;
     border: 1px solid #E5E5E5;
     border-top: 3px solid #000000;
     border-radius: 0px 0px 6px 6px;
@@ -858,7 +859,6 @@
 .technology-consult .select b {
     margin: 0 4px;
 }
-
 
 .technology-consult .article {
     font-family: 'ArrowRegular';
@@ -1273,7 +1273,6 @@
     .container {
         border: 1px solid blue;
     }
-
     input {
         display: none;
     }
