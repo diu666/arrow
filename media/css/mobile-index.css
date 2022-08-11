@@ -612,9 +612,10 @@ header .menu .iconfont {
 .technology-consult .article {
     font-family: 'ArrowRegular';
     padding-bottom: .2rem;
+    display: block;
 }
 
-.technology-consult .hotspot {
+.technology-consult .article:nth-of-type(2) {
     display: none;
 }
 
