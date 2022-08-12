@@ -1281,18 +1281,3 @@ a {
     cursor: pointer;
     z-index: 9999
 }
-
-<<<<<<< HEAD
-/* 底部结束 */
-
-=======
-/* 底部结束 */
-
-@media (max-width: 768px) {
-    .container {
-        border: 1px solid blue;
-    }
-    input {
-        display: none;
-    }
-}
