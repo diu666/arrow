@@ -632,7 +632,7 @@ a {
     color: #333333;
     font-size: 14px;
     margin-bottom: 13px;
-    cursor: pointer;
+    /* cursor: pointer; */
 }
 
 .tocardbottom {
@@ -895,7 +895,7 @@ a {
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 1;
     overflow: hidden;
-    cursor: pointer;
+    /* cursor: pointer; */
 }
 
 .article .order {
@@ -1080,7 +1080,7 @@ a {
 .knowledge .list .item {
     display: flex;
     justify-content: space-between;
-    cursor: pointer;
+    /* cursor: pointer; */
 }
 
 .knowledge .list .item:last-child {
