@@ -1,5 +1,10 @@
 /* web端首页 */
 
+a {
+    color: #fff;
+    text-decoration: unset;
+}
+
 .top {
     background: #000000;
     height: 80px;
@@ -18,22 +23,25 @@
 }
 
 .left {
-    width: 796px;
+    /* width: 796px; */
+    width: 70%;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-right: 130px;
+    /* margin-right: 130px; */
+    margin-right: 11%;
 }
 
 .custom-input {
     display: flex;
     align-items: center;
-    max-width: 495px;
+    /* max-width: 495px; */
+    width: 70%;
 }
 
 .custom-input .prefix {
     font-family: 'ArrowMedium';
-    width: 120px;
+    /* width: 120px; */
     height: 35px;
     font-weight: 500;
     color: #808080;
@@ -67,7 +75,8 @@
 
 .custom-input input {
     font-family: 'ArrowRegular';
-    width: 496px;
+    /* width: 496px; */
+    width: 76%;
     height: 35px;
     outline: unset;
     border: unset;
@@ -153,6 +162,10 @@
 
 .menu div:first-child {
     flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 16%;
 }
 
 .menu div:last-child {
@@ -173,7 +186,6 @@
     display: inline-block;
     text-align: center;
     line-height: 40px;
-    margin-right: 20px;
 }
 
 .menu .iconfont {
@@ -193,7 +205,8 @@
 }
 
 .main-carousel {
-    width: 800px;
+    /* width: 800px; */
+    width: 70%;
     height: 385px;
     margin-top: 17px;
     margin-right: 20px;
@@ -232,6 +245,7 @@
 }
 
 .near-carousel {
+    width: 28%;
     height: 385px;
     margin-top: 17px;
     flex: 1;
@@ -241,7 +255,7 @@
 }
 
 .near-carousel .live {
-    width: 320px;
+    /* width: 320px; */
     height: 272px;
     background: #999999;
 }
@@ -371,18 +385,19 @@
 }
 
 .solution {
-    width: 800px;
+    width: 70%;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     margin-right: 20px;
+    padding-right: 24px;
 }
 
 .solution .list {
     color: #000000;
     width: 100%;
     display: flex;
-    align-items: center;
+    align-items: flex-end;
     justify-content: space-between;
     border-bottom: 1px solid #E5E5E5;
     padding-bottom: 23px;
@@ -656,6 +671,7 @@
     margin-top: -74px;
     width: 800px;
     margin-right: 20px;
+    padding-right: 24px;
 }
 
 .video>.header {
@@ -697,8 +713,8 @@
     /* display: flex;
     flex-wrap: wrap; */
     display: grid;
-    grid-template-columns: repeat(3, 33.33%);
-    gap: 20px 0;
+    grid-template-columns: repeat(3, 32.33%);
+    gap: 20px 1.5%;
 }
 
 .video .content .item {
@@ -707,13 +723,13 @@
     background: #FFFFFF;
     box-shadow: 0px 2px 10px 0px rgba(8, 9, 30, 0.1000);
     border-radius: 8px;
-    margin: 0 20px 0 0;
+    /* margin: 0 20px 0 0; */
     padding-bottom: 20px;
     cursor: pointer;
 }
 
 .video .content .item:nth-child(3n) {
-    margin-right: unset;
+    /* margin-right: unset; */
 }
 
 .video .play {
@@ -848,11 +864,11 @@
 
 .technology-consult .article {
     font-family: 'ArrowRegular';
-    padding-bottom: 20px;
+    padding-bottom: 50px;
     display: block;
 }
 
-.technology-consult .article:nth-of-type(3) {
+.technology-consult .article:nth-of-type(2) {
     display: none;
 }
 
@@ -939,8 +955,10 @@
 }
 
 .knowledge {
-    width: 800px;
+    /* width: 800px; */
+    width: 70%;
     margin-right: 20px;
+    padding-right: 24px;
 }
 
 .knowledge>.header {
@@ -982,7 +1000,8 @@
 }
 
 .knowledge .content .play {
-    width: 404px;
+    /* width: 404px; */
+    width: 50%;
     height: 287px;
     background: blanchedalmond;
     border-radius: 8px;
@@ -1046,11 +1065,21 @@
     margin-top: 10px;
 }
 
+.knowledge .list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
 .knowledge .list .item {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 27px;
     cursor: pointer;
+}
+
+.knowledge .list .item:last-child {
+    margin-bottom: unset;
 }
 
 .knowledge .list .l {
@@ -1108,7 +1137,7 @@
     border: 1px solid #E5E5E5;
     border-top: 3px solid #000000;
     border-radius: 0px 0px 6px 6px;
-    padding: 25px 27px;
+    padding: 15px 27px;
 }
 
 .partners>.title {
@@ -1255,12 +1284,3 @@
 
 
 /* 底部结束 */
-
-@media (max-width: 768px) {
-    .container {
-        border: 1px solid blue;
-    }
-    input {
-        display: none;
-    }
-}

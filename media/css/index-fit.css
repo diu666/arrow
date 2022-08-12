@@ -1,0 +1,252 @@
+@media (max-width: 1200px) {
+    /* .container {
+        border: 1px solid blue;
+    } */
+    .left {
+        margin-right: 7%;
+    }
+    .custom-input {
+        width: 60%;
+    }
+    .custom-input input {
+        width: 52%;
+    }
+    /* top部分结束 */
+    .menu div:first-child {
+        margin-right: 18%;
+    }
+    .menu span {
+        width: 74px;
+    }
+    /* menu部分结束 */
+    .main-carousel {
+        width: 64%;
+    }
+    /* 轮播、广告区结束 */
+    .solution {
+        width: 64%
+    }
+    .solution ul {
+        font-size: 14px;
+    }
+    .solution .all-items {
+        font-size: 14px;
+    }
+    .solution .all-items .item {
+        width: 49%;
+    }
+    .technology-question>.title span:first-child {
+        font-size: 20px;
+    }
+    /* 解决方案部分结束 */
+    .video {
+        width: 64%;
+    }
+    .video .title {
+        font-size: 18px;
+        padding-bottom: 14px;
+    }
+    .video .play {
+        height: 122px;
+    }
+    .video .play .iconfont {
+        font-size: 26px;
+    }
+    .video .play .time {
+        padding: 4px 8px
+    }
+    .video .info {
+        font-size: 14px;
+    }
+    .video .data-time .iconfont {
+        margin-right: 2px;
+    }
+    .video .data-time div:first-child {
+        padding-right: 3px;
+    }
+    .video .data-time div:last-child {
+        padding-left: 3px;
+    }
+    .technology-consult>.title>span:first-child {
+        font-size: 20px;
+    }
+    .technology-consult .article {
+        padding-bottom: 16px;
+    }
+    .technology-consult .item {
+        padding: 9px 0;
+    }
+    /* 视频中心部分结束 */
+    .knowledge {
+        width: 64%;
+    }
+    .knowledge>.header>.title {
+        font-size: 18px;
+    }
+    .knowledge .content .play {
+        width: 49%;
+        margin: unset;
+    }
+    .knowledge .content .info {
+        left: 12px;
+        bottom: 12px;
+    }
+    .knowledge .list {
+        width: 49%;
+    }
+    .knowledge .list .l {
+        width: 112px;
+        height: 67px;
+        margin-right: 0;
+    }
+    .knowledge .list .r {
+        width: 56%;
+        max-width: 56%;
+    }
+    .knowledge .list .r>span {
+        font-size: 12px;
+    }
+    .knowledge .list .r .name-time {
+        width: auto;
+        font-size: 12px;
+    }
+    .knowledge .list .r .name-time .iconfont {
+        font-size: 14px;
+    }
+    .partners>.title>span:first-child {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 992px) {
+    /* .container {
+        border: 1px solid red;
+    } */
+    .logo svg {
+        width: 96px;
+        height: 36px;
+    }
+    .left {
+        margin-right: 10%;
+        width: 60%;
+    }
+    .custom-input {
+        width: 68%;
+    }
+    /* 头部结束 */
+    .menu {
+        font-size: 14px;
+    }
+    .menu span {
+        width: 64px;
+    }
+    /* menu结束 */
+    .main-carousel {
+        width: 59%;
+    }
+    .solution {
+        width: 60%;
+        padding-right: 12px;
+        margin-right: 14px;
+    }
+    .solution .list {
+        padding-bottom: 20px;
+    }
+    .solution ul {
+        font-size: 12px;
+    }
+    .solution ul li {
+        padding: 10px 0;
+    }
+    .solution .all-items {
+        font-size: 12px;
+    }
+    .solution .all-items .item {
+        width: 48%;
+    }
+    .solution .all-items img {
+        width: 114px;
+    }
+    .technology-question {
+        height: 510px;
+    }
+    .technology-question>.title span:first-child {
+        font-size: 18px;
+    }
+    .steps {
+        margin: 16px 0 10px;
+    }
+    .tocard-middle {
+        font-size: 12px;
+    }
+    /* 解决方案结束 */
+    .video {
+        width: 60%;
+        padding-right: 12px;
+        margin-right: 14px;
+    }
+    .video .info {
+        font-size: 12px;
+        margin: 7px 8px 0 8px;
+    }
+    .video .play {
+        height: 92px;
+    }
+    .video .play .time {
+        padding: 4px;
+        font-size: 12px;
+        bottom: 4px;
+        right: 4px;
+    }
+    .video .data-time {
+        padding: 7px;
+    }
+    .article .item .info>span {
+        font-size: 12px;
+    }
+    .technology-consult>.title>span:first-child {
+        font-size: 18px;
+    }
+    .technology-consult .select .select-active {
+        font-size: 12px;
+    }
+    .technology-consult .item {
+        padding: 7px 0;
+    }
+    /* 视频中心结束 */
+    .knowledge {
+        width: 60%;
+    }
+    .knowledge .content .play {
+        margin: unset;
+    }
+    .knowledge .content .info span:last-child {
+        font-size: 14px;
+    }
+    .knowledge .list .l {
+        width: 82px;
+        height: 67px;
+    }
+    .knowledge .list .r>span {
+        word-break: break-all;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 2;
+        overflow: hidden;
+    }
+    .knowledge .list .r .name-time {
+        margin: unset;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .partners>.title>span:first-child {
+        font-size: 18px;
+    }
+    .partners .list .item .r {
+        font-size: 14px;
+    }
+    .partners .list .item .r span:last-child {
+        font-size: 12px;
+    }
+}
