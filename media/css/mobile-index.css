@@ -12,7 +12,8 @@
 } */
 
 header {
-    padding: .46rem .6rem .26rem;
+    /* padding: .46rem .6rem .26rem; */
+    padding: .46rem .3rem .26rem;
     background: #333;
 }
 
@@ -42,6 +43,9 @@ header .menu .iconfont {
     font-size: .28rem;
     color: #999999;
     padding: .1rem;
+    -webkit-appearance: none;
+    border-radius: 0;
+    /*清除ios默认圆角*/
 }
 
 .custom-input input::-webkit-input-placeholder {
@@ -203,7 +207,8 @@ header .menu .iconfont {
 }
 
 .live .content button {
-    border: .01rem solid #FFFFFF;
+    border: 1px solid #FFFFFF;
+    /* border: .01rem solid #FFFFFF; */
     border-radius: .04rem;
     background: transparent;
     color: #fff;
@@ -310,6 +315,8 @@ header .menu .iconfont {
 .solution-wrap .all-items .item {
     display: flex;
     margin-bottom: .38rem;
+    justify-content: space-between;
+    align-items: flex-start;
 }
 
 .solution-wrap .all-items img {
@@ -318,6 +325,10 @@ header .menu .iconfont {
     margin-right: .2rem;
     box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.2200);
     border-radius: 6px 0px 0px 0px;
+}
+
+.solution-wrap .all-items span {
+    flex: 1;
 }
 
 
