@@ -219,6 +219,11 @@ a {
     position: relative;
 }
 
+.main-carousel .swiper img {
+    height: 100%;
+    object-fit: scale-down;
+}
+
 .main-carousel .swiper-pagination {
     display: flex;
     justify-content: flex-end;
